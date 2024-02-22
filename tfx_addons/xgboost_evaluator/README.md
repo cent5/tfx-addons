@@ -60,7 +60,7 @@ Using joblib:
 import joblib
 joblib.dump(pipeline, 'model.joblib')
 ```
-Note that CAIP asks users to use `sklearn.externals.joblib` rather than the bare `joblib`, but newer versions of sklearn have deprecated `skearn.externals`.
+Note that CAIP asks users to use `sklearn.externals.joblib` rather than the bare `joblib`, but newer versions of sklearn have deprecated `sklearn.externals`.
 
 Using pickle:
 ```
